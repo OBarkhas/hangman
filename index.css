@@ -1,0 +1,49 @@
+#keyboard button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+}
+#fails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+#image {
+  height: 500px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+
+  margin-top: 100px;
+  margin-left: 950px;
+}
+
+#won {
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#loss {
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
